@@ -1,0 +1,737 @@
+[API Trapper      ( bdc:4e3c)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (509c:3340)] ------------------------------------------------------------------------------------------
+[Network Analyzer (509c:3340)] Load Network Traffic Analyzers:
+[Network Analyzer (509c:3340)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (509c:3340)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (509c:3340)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (509c:3340)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (509c:3340)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (509c:3340)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (509c:3340)]     Analyzer Module: local_server (value=)
+[Network Analyzer (509c:3340)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (509c:3340)] Started proxy on port 8888 listening IP 192.168.86.108, 127.0.0.1, in synchronous mode
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1556
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1557
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1558
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1560
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1565
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1564
+[Proxy Recording  (509c:3c5c)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (509c:2e94)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (509c:3c5c)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (509c:2e94)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (509c:3c5c)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (509c:2e94)] Received response of 479 header and 22 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (509c:2e94)] Sent 22 bytes to client @ 192.168.86.108:1564
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1567
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1568
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=102 ...
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=102 ...
+[Proxy Recording  (509c: 7d4)] Received response of 295 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=102
+[Web Request      (509c: 7d4)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=102"   
+[Network Analyzer (509c: 7d4)]   (Sid:  1) Client -> Server @ : 513 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid:  1) Server -> Client : 322 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c: 7d4)] Sent 0 bytes to client @ 192.168.86.108:1556
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/ ...
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/ ...
+[Proxy Recording  (509c:21c8)] Received response of 432 header and 2805 body bytes from https://advantageonlineshopping.com:443/
+[Web Request      (509c:21c8)] "GET https://advantageonlineshopping.com/"   
+[Network Analyzer (509c:21c8)]   (Sid:  2) Client -> Server @ : 703 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid:  2) Server -> Client : 419 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid:  2) Server -> Client : 2805 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:21c8)] Sent 2805 bytes to client @ 192.168.86.108:1557
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1574
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1575
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1576
+[Proxy Recording  (509c:42c4)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (509c:42c4)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (509c:42c4)] Received response of 582 header and 982 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (509c:42c4)]   (Sid:  3) Client -> Server @ : 440 bytes (SSL)(Service=HTTP)
+[Web Request      (509c:42c4)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (509c:42c4)]   (Sid:  3) Client -> Server @ : 340 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid:  3) Server -> Client : 571 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid:  3) Server -> Client : 982 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:42c4)] Sent 982 bytes to client @ 192.168.86.108:1558
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1578
+[Proxy Recording  (509c:2e18)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (509c:2e18)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (509c:2e18)] Received response of 1917 header and 200 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer (509c:2e18)]   (Sid:  4) Client -> Server @ : 2644 bytes (SSL)(Service=HTTP)
+[Web Request      (509c:2e18)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (509c:2e18)]   (Sid:  4) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2e18)]   (Sid:  4) Server -> Client : 1906 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2e18)]   (Sid:  4) Server -> Client : 200 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e18)] Sent 200 bytes to client @ 192.168.86.108:1560
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1581
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/vendor/requirejs/require.js ...
+[Proxy Recording  (509c:2e94)] Trying to connect to https://advantageonlineshopping.com:443/css/main.min.css ...
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/vendor/requirejs/require.js ...
+[Proxy Recording  (509c:2e94)] Trying to connect to https://advantageonlineshopping.com:443/css/main.min.css ...
+[Proxy Recording  (509c:42c4)] Trying to connect to https://www.googleapis.com:443/oauth2/v1/userinfo ...
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Down_arrow.svg ...
+[Proxy Recording  (509c:42c4)] Trying to connect to https://www.googleapis.com:443/oauth2/v1/userinfo ...
+[Proxy Recording  (509c:2e18)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Down_arrow.svg ...
+[Proxy Recording  (509c: 7d4)] Received response of 447 header and 20995 body bytes from https://advantageonlineshopping.com:443/vendor/requirejs/require.js
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=11:dpV2xLXnn6tJoIJW6SbN5iJEtzU0XxZPo2Qq8r_4J0g&cup2hreq=eb84cd2fa528278108429faf707df90287b7f680ab8d30b6888340a6a896f1b5 ...
+[Proxy Recording  (509c:2e18)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (509c:42c4)] Received response of 559 header and 167 body bytes from https://www.googleapis.com:443/oauth2/v1/userinfo
+[Web Request      (509c: 7d4)] "GET https://advantageonlineshopping.com/vendor/requirejs/require.js"   
+[Network Analyzer (509c: 7d4)]   (Sid:  5) Client -> Server @ : 575 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid:  5) Server -> Client : 434 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid:  5) Server -> Client : 20995 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c: 7d4)] Sent 20995 bytes to client @ 192.168.86.108:1575
+[Proxy Recording  (509c:2e94)] Received response of 436 header and 30100 body bytes from https://advantageonlineshopping.com:443/css/main.min.css
+[Web Request      (509c:42c4)] "GET https://www.googleapis.com/oauth2/v1/userinfo"   
+[Network Analyzer (509c:42c4)]   (Sid:  6) Client -> Server @ : 638 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid:  6) Server -> Client : 548 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid:  6) Server -> Client : 167 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:42c4)] Sent 167 bytes to client @ 192.168.86.108:1578
+[Proxy Recording  (509c:2e18)] Received response of 582 header and 351 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Proxy Recording  (509c:21c8)] Received response of 385 header and 795 body bytes from https://advantageonlineshopping.com:443/css/images/Down_arrow.svg
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1591
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=11:dpV2xLXnn6tJoIJW6SbN5iJEtzU0XxZPo2Qq8r_4J0g&cup2hreq=eb84cd2fa528278108429faf707df90287b7f680ab8d30b6888340a6a896f1b5 ...
+[Web Request      (509c:2e94)] "GET https://advantageonlineshopping.com/css/main.min.css"   
+[Network Analyzer (509c:2e94)]   (Sid:  7) Client -> Server @ : 578 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2e94)]   (Sid:  7) Server -> Client : 423 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2e94)]   (Sid:  7) Server -> Client : 30100 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e94)] Sent 30100 bytes to client @ 192.168.86.108:1574
+[Proxy Recording  (509c:3c5c)] Received response of 1244 header and 274 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=11:dpV2xLXnn6tJoIJW6SbN5iJEtzU0XxZPo2Qq8r_4J0g&cup2hreq=eb84cd2fa528278108429faf707df90287b7f680ab8d30b6888340a6a896f1b5
+[Network Analyzer (509c:2e18)]   (Sid:  8) Client -> Server @ : 416 bytes (SSL)(Service=HTTP)
+[Web Request      (509c:2e18)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1592
+[Network Analyzer (509c:2e18)]   (Sid:  8) Client -> Server @ : 279 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2e18)]   (Sid:  8) Server -> Client : 571 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2e18)]   (Sid:  8) Server -> Client : 351 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e18)] Sent 351 bytes to client @ 192.168.86.108:1581
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1593
+[Web Request      (509c:21c8)] "GET https://advantageonlineshopping.com/css/images/Down_arrow.svg"   
+[Network Analyzer (509c:21c8)]   (Sid:  9) Client -> Server @ : 633 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid:  9) Server -> Client : 400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid:  9) Server -> Client : 795 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:21c8)] Sent 795 bytes to client @ 192.168.86.108:1576
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1594
+[Network Analyzer (509c:3c5c)]   (Sid: 10) Client -> Server @ : 766 bytes (SSL)(Service=HTTP)
+[Web Request      (509c:3c5c)] "POST https://update.googleapis.com/service/update2/json?cup2key=11:dpV2xLXnn6tJoIJW6SbN5iJEtzU0XxZPo2Qq8r_4J0g&cup2hreq=eb84cd2fa528278108429faf707df90287b7f680ab8d30b6888340a6a896f1b5"   
+[Network Analyzer (509c:3c5c)]   (Sid: 10) Client -> Server @ : 1458 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 10) Server -> Client : 1233 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 10) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:3c5c)] Sent 274 bytes to client @ 192.168.86.108:1568
+[Proxy Recording  (509c:42c4)] Trying to connect to https://advantageonlineshopping.com:443/main.min.js ...
+[Proxy Recording  (509c:42c4)] Trying to connect to https://advantageonlineshopping.com:443/main.min.js ...
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://m.google.com:443/devicemanagement/data/api?retry=false&agent=Google+Chrome+102.0.5005.63(0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs%2Fbranch-heads%2F5005%40%7B%23819%7D)&apptype=Chrome&deviceid=cf70d4ee-9373-482d-930f-db2f29e19438&devicetype=2&oauth_token=ya29.a0ARrdaM-ByE31WOi1sZo4Wo2hDnZyMWlDgbzh0hFBqE4Bn14HZm5ACtULjwmT1JJevuZo93JbP7QAEKu8XRr62U6EEVQ9y87bqYOmNCeHawOoa3DPOCyr4eXW8vj4Hee0_HtRPaAdPYARK_aL_yR2kPqYAWrqT7h5fruOU9CX6JCQNp20sczaB3XJJRS-koAZmTf3sCT-w2dDeZHYPRAuyQ1eJPikeTl2ZEg0q4cezm3ROQRLFHDCEd_m3YrBwVxlfxM&platform=Windows+NT%7Cx86_64%7C10.0.0&request=register ...
+[Proxy Recording  (509c:42c4)] Received response of 449 header and 268242 body bytes from https://advantageonlineshopping.com:443/main.min.js
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://m.google.com:443/devicemanagement/data/api?retry=false&agent=Google+Chrome+102.0.5005.63(0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs%2Fbranch-heads%2F5005%40%7B%23819%7D)&apptype=Chrome&deviceid=cf70d4ee-9373-482d-930f-db2f29e19438&devicetype=2&oauth_token=ya29.a0ARrdaM-ByE31WOi1sZo4Wo2hDnZyMWlDgbzh0hFBqE4Bn14HZm5ACtULjwmT1JJevuZo93JbP7QAEKu8XRr62U6EEVQ9y87bqYOmNCeHawOoa3DPOCyr4eXW8vj4Hee0_HtRPaAdPYARK_aL_yR2kPqYAWrqT7h5fruOU9CX6JCQNp20sczaB3XJJRS-koAZmTf3sCT-w2dDeZHYPRAuyQ1eJPikeTl2ZEg0q4cezm3ROQRLFHDCEd_m3YrBwVxlfxM&platform=Windows+NT%7Cx86_64%7C10.0.0&request=register ...
+[Web Request      (509c:42c4)] "GET https://advantageonlineshopping.com/main.min.js"   
+[Network Analyzer (509c:42c4)]   (Sid: 11) Client -> Server @ : 559 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 11) Server -> Client : 436 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 11) Server -> Client : 268242 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:42c4)] Sent 268242 bytes to client @ 192.168.86.108:1592
+[Proxy Recording.Error (509c: 7d4)] Failed to connect to server https://m.google.com:443/devicemanagement/data/api?retry=false&agent=Google+Chrome+102.0.5005.63(0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs%2Fbranch-heads%2F5005%40%7B%23819%7D)&apptype=Chrome&deviceid=cf70d4ee-9373-482d-930f-db2f29e19438&devicetype=2&oauth_token=ya29.a0ARrdaM-ByE31WOi1sZo4Wo2hDnZyMWlDgbzh0hFBqE4Bn14HZm5ACtULjwmT1JJevuZo93JbP7QAEKu8XRr62U6EEVQ9y87bqYOmNCeHawOoa3DPOCyr4eXW8vj4Hee0_HtRPaAdPYARK_aL_yR2kPqYAWrqT7h5fruOU9CX6JCQNp20sczaB3XJJRS-koAZmTf3sCT-w2dDeZHYPRAuyQ1eJPikeTl2ZEg0q4cezm3ROQRLFHDCEd_m3YrBwVxlfxM&platform=Windows+NT%7Cx86_64%7C10.0.0&request=register.
+Message=ProtocolError, status=The remote server returned an error: (403) Forbidden.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (509c: 7d4)] Checking if server request client certificate...
+
+[Proxy Recording.Error (509c: 7d4)] Checking for client cert request**********
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1599
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1600
+[Proxy Recording  (509c: 7d4)] Received response of 624 header and 117 body bytes from https://m.google.com:443/devicemanagement/data/api?retry=false&agent=Google+Chrome+102.0.5005.63(0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs%2Fbranch-heads%2F5005%40%7B%23819%7D)&apptype=Chrome&deviceid=cf70d4ee-9373-482d-930f-db2f29e19438&devicetype=2&oauth_token=ya29.a0ARrdaM-ByE31WOi1sZo4Wo2hDnZyMWlDgbzh0hFBqE4Bn14HZm5ACtULjwmT1JJevuZo93JbP7QAEKu8XRr62U6EEVQ9y87bqYOmNCeHawOoa3DPOCyr4eXW8vj4Hee0_HtRPaAdPYARK_aL_yR2kPqYAWrqT7h5fruOU9CX6JCQNp20sczaB3XJJRS-koAZmTf3sCT-w2dDeZHYPRAuyQ1eJPikeTl2ZEg0q4cezm3ROQRLFHDCEd_m3YrBwVxlfxM&platform=Windows+NT%7Cx86_64%7C10.0.0&request=register
+[Network Analyzer (509c: 7d4)]   (Sid: 12) Client -> Server @ : 961 bytes (SSL)(Service=HTTP)
+[Web Request      (509c: 7d4)] "POST https://m.google.com/devicemanagement/data/api?retry=false&agent=Google+Chrome+102.0.5005.63(0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs%2Fbranch-heads%2F5005%40%7B%23819%7D)&apptype=Chrome&deviceid=cf70d4ee-9373-482d-930f-db2f29e19438&devicetype=2&oauth_token=ya29.a0ARrdaM-ByE31WOi1sZo4Wo2hDnZyMWlDgbzh0hFBqE4Bn14HZm5ACtULjwmT1JJevuZo93JbP7QAEKu8XRr62U6EEVQ9y87bqYOmNCeHawOoa3DPOCyr4eXW8vj4Hee0_HtRPaAdPYARK_aL_yR2kPqYAWrqT7h5fruOU9CX6JCQNp20sczaB3XJJRS-koAZmTf3sCT-w2dDeZHYPRAuyQ1eJPikeTl2ZEg0q4cezm3ROQRLFHDCEd_m3YrBwVxlfxM&platform=Windows+NT%7Cx86_64%7C10.0.0&request=register"   
+[Network Analyzer (509c: 7d4)]   (Sid: 12) Client -> Server @ : 8 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 12) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 12) Server -> Client : 117 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c: 7d4)] Sent 117 bytes to client @ 192.168.86.108:1591
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1602
+[Proxy Recording  (509c:2e18)] Trying to connect to https://advantageonlineshopping.com:443/services.properties ...
+[Proxy Recording  (509c:2e18)] Trying to connect to https://advantageonlineshopping.com:443/services.properties ...
+[Proxy Recording  (509c:2e18)] Received response of 353 header and 1010 body bytes from https://advantageonlineshopping.com:443/services.properties
+[Web Request      (509c:2e18)] "GET https://advantageonlineshopping.com/services.properties"   
+[Network Analyzer (509c:2e18)]   (Sid: 13) Client -> Server @ : 563 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2e18)]   (Sid: 13) Server -> Client : 368 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e94)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=GvH%2Bh%2BHhP786p5brsICgdA%3D%3D ...
+[Network Analyzer (509c:2e18)]   (Sid: 13) Server -> Client : 1010 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e18)] Sent 1010 bytes to client @ 192.168.86.108:1594
+[Proxy Recording  (509c:2e94)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=GvH%2Bh%2BHhP786p5brsICgdA%3D%3D ...
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1606
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1607
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1608
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1609
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1610
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1611
+[Proxy Recording  (509c:2e94)] Received response of 653 header and 749 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=GvH%2Bh%2BHhP786p5brsICgdA%3D%3D
+[Network Analyzer (509c:2e94)]   (Sid: 14) Client -> Server @ : 991 bytes (SSL)(Service=HTTP)
+[Web Request      (509c:2e94)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=GvH%2Bh%2BHhP786p5brsICgdA%3D%3D"   
+[Network Analyzer (509c:2e94)]   (Sid: 14) Client -> Server @ : 1213 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2e94)]   (Sid: 14) Server -> Client : 642 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2e94)]   (Sid: 14) Server -> Client : 749 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e94)] Sent 749 bytes to client @ 192.168.86.108:1593
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1612
+[Proxy Recording  (509c:42c4)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff ...
+[Proxy Recording  (509c:42c4)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff ...
+[Proxy Recording  (509c:42c4)] Received response of 380 header and 25020 body bytes from https://advantageonlineshopping.com:443/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://www.google-analytics.com:443/analytics.js ...
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://www.google-analytics.com:443/analytics.js ...
+[Web Request      (509c:42c4)] "GET https://advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff"   
+[Network Analyzer (509c:42c4)]   (Sid: 15) Client -> Server @ : 739 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 15) Server -> Client : 395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 15) Server -> Client : 25020 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:42c4)] Sent 25020 bytes to client @ 192.168.86.108:1600
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1618
+[Proxy Recording  (509c:3c5c)] Received response of 613 header and 20006 body bytes from https://www.google-analytics.com:443/analytics.js
+[Web Request      (509c:3c5c)] "GET https://www.google-analytics.com/analytics.js"   
+[Network Analyzer (509c:3c5c)]   (Sid: 16) Client -> Server @ : 577 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 16) Server -> Client : 630 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 16) Server -> Client : 20006 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:3c5c)] Sent 20006 bytes to client @ 192.168.86.108:1599
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1619
+[Proxy Recording  (509c:2974)] Trying to connect to https://advantageonlineshopping.com:443/css/images/logo.png ...
+[Proxy Recording  (509c:2974)] Trying to connect to https://advantageonlineshopping.com:443/css/images/logo.png ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/favicon.ico ...
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff ...
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff ...
+[Proxy Recording  (509c:2e18)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/favicon.ico ...
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff ...
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff ...
+[Proxy Recording  (509c:2e18)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL ...
+[Proxy Recording  (509c:2974)] Received response of 383 header and 2645 body bytes from https://advantageonlineshopping.com:443/css/images/logo.png
+[Proxy Recording  (509c:20e8)] Received response of 386 header and 1150 body bytes from https://advantageonlineshopping.com:443/css/images/favicon.ico
+[Web Request      (509c:2974)] "GET https://advantageonlineshopping.com/css/images/logo.png"   
+[Network Analyzer (509c:2974)]   (Sid: 17) Client -> Server @ : 701 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:21c8)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Network Analyzer (509c:2974)]   (Sid: 17) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2974)]   (Sid: 17) Server -> Client : 2645 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2974)] Sent 2645 bytes to client @ 192.168.86.108:1610
+[Proxy Recording  (509c: 7d4)] Received response of 380 header and 25048 body bytes from https://advantageonlineshopping.com:443/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1627
+[Proxy Recording  (509c:2afc)] Received response of 380 header and 24576 body bytes from https://advantageonlineshopping.com:443/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff
+[Web Request      (509c:20e8)] "GET https://advantageonlineshopping.com/css/images/favicon.ico"   
+[Proxy Recording  (509c:2e18)] Received response of 400 header and 6541 body bytes from https://advantageonlineshopping.com:443/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+[Network Analyzer (509c:20e8)]   (Sid: 18) Client -> Server @ : 704 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 18) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 18) Server -> Client : 1150 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:20e8)] Sent 1150 bytes to client @ 192.168.86.108:1608
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1628
+[Proxy Recording  (509c:21c8)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Web Request      (509c: 7d4)] "GET https://advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff"   
+[Network Analyzer (509c: 7d4)]   (Sid: 19) Client -> Server @ : 737 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 19) Server -> Client : 395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 19) Server -> Client : 25048 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c: 7d4)] Sent 25048 bytes to client @ 192.168.86.108:1606
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1629
+[Web Request      (509c:2afc)] "GET https://advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff"   
+[Network Analyzer (509c:2afc)]   (Sid: 20) Client -> Server @ : 735 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2afc)]   (Sid: 20) Server -> Client : 395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2afc)]   (Sid: 20) Server -> Client : 24576 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Sent 24576 bytes to client @ 192.168.86.108:1609
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1630
+[Proxy Recording  (509c:21c8)] Received response of 486 header and 229 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Web Request      (509c:2e18)] "GET https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"   
+[Network Analyzer (509c:2e18)]   (Sid: 21) Client -> Server @ : 699 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2e18)]   (Sid: 21) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2e18)]   (Sid: 21) Server -> Client : 6541 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e18)] Sent 6541 bytes to client @ 192.168.86.108:1607
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1631
+[Network Analyzer (509c:21c8)]   (Sid: 22) Client -> Server @ : 629 bytes (SSL)(Service=HTTP)
+[Web Request      (509c:21c8)] "POST https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (509c:21c8)]   (Sid: 22) Client -> Server @ : 133 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid: 22) Server -> Client : 475 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid: 22) Server -> Client : 229 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:21c8)] Sent 229 bytes to client @ 192.168.86.108:1602
+[Proxy Recording  (509c:2e94)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=GvH%2Bh%2BHhP786p5brsICgdA%3D%3D ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/closeDark.png ...
+[Proxy Recording  (509c:2974)] Trying to connect to https://advantageonlineshopping.com:443/accountservice/ws/GetAccountConfigurationRequest ...
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j96&a=80493935&t=pageview&_s=1&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=IEBAAEABAAAAAC~&jid=171108870&gjid=417765420&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&_r=1&_slc=1&z=1005211098 ...
+[Proxy Recording  (509c:2e94)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=GvH%2Bh%2BHhP786p5brsICgdA%3D%3D ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/closeDark.png ...
+[Proxy Recording  (509c:2974)] Trying to connect to https://advantageonlineshopping.com:443/accountservice/ws/GetAccountConfigurationRequest ...
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j96&a=80493935&t=pageview&_s=1&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=IEBAAEABAAAAAC~&jid=171108870&gjid=417765420&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&_r=1&_slc=1&z=1005211098 ...
+[Proxy Recording  (509c:20e8)] Received response of 383 header and 1098 body bytes from https://advantageonlineshopping.com:443/css/images/closeDark.png
+[Proxy Recording  (509c:3c5c)] Received response of 612 header and 2 body bytes from https://www.google-analytics.com:443/j/collect?v=1&_v=j96&a=80493935&t=pageview&_s=1&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=IEBAAEABAAAAAC~&jid=171108870&gjid=417765420&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&_r=1&_slc=1&z=1005211098
+[Web Request      (509c:20e8)] "GET https://advantageonlineshopping.com/css/images/closeDark.png"   
+[Network Analyzer (509c:20e8)]   (Sid: 23) Client -> Server @ : 706 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 23) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 23) Server -> Client : 1098 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:20e8)] Sent 1098 bytes to client @ 192.168.86.108:1628
+[Proxy Recording  (509c:1c84)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIlCTShtpNO2_4mEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxirqcoB?alt=proto ...
+[Proxy Recording  (509c:1c84)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIlCTShtpNO2_4mEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxirqcoB?alt=proto ...
+[Web Request      (509c:3c5c)] "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=80493935&t=pageview&_s=1&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=IEBAAEABAAAAAC~&jid=171108870&gjid=417765420&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&_r=1&_slc=1&z=1005211098"   
+[Network Analyzer (509c:3c5c)]   (Sid: 24) Client -> Server @ : 958 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:2e94)] Received response of 653 header and 358 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=GvH%2Bh%2BHhP786p5brsICgdA%3D%3D
+[Network Analyzer (509c:3c5c)]   (Sid: 24) Server -> Client : 629 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 24) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:3c5c)] Sent 2 bytes to client @ 192.168.86.108:1619
+[Network Analyzer (509c:2e94)]   (Sid: 25) Client -> Server @ : 966 bytes (SSL)(Service=HTTP)
+[Web Request      (509c:2e94)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=GvH%2Bh%2BHhP786p5brsICgdA%3D%3D"   
+[Network Analyzer (509c:2e94)]   (Sid: 25) Client -> Server @ : 853 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2e94)]   (Sid: 25) Server -> Client : 642 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2e94)]   (Sid: 25) Server -> Client : 358 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e94)] Sent 358 bytes to client @ 192.168.86.108:1612
+[Proxy Recording  (509c:2974)] Received response of 732 header and 823 body bytes from https://advantageonlineshopping.com:443/accountservice/ws/GetAccountConfigurationRequest
+[Network Analyzer (509c:2974)]   (Sid: 26) Client -> Server @ : 998 bytes (SSL)(Service=HTTP)
+[Web Request      (509c:2974)] "POST https://advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest"   
+[Network Analyzer (509c:2974)]   (Sid: 26) Client -> Server @ : 361 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2974)]   (Sid: 26) Server -> Client : 747 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2974)]   (Sid: 26) Server -> Client : 823 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2974)] Sent 823 bytes to client @ 192.168.86.108:1627
+[Proxy Recording  (509c:1c84)] Received response of 532 header and 60 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIlCTShtpNO2_4mEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxirqcoB?alt=proto
+[Web Request      (509c:1c84)] "GET https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIlCTShtpNO2_4mEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxirqcoB?alt=proto"   
+[Network Analyzer (509c:1c84)]   (Sid: 27) Client -> Server @ : 590 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:1c84)]   (Sid: 27) Server -> Client : 549 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:1c84)]   (Sid: 27) Server -> Client : 60 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1c84)] Sent 60 bytes to client @ 192.168.86.108:1611
+[Proxy Recording  (509c:42c4)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories ...
+[Proxy Recording  (509c:42c4)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories ...
+[Proxy Recording  (509c:42c4)] Received response of 400 header and 4487 body bytes from https://advantageonlineshopping.com:443/catalog/api/v1/categories
+[Web Request      (509c:42c4)] "GET https://advantageonlineshopping.com/catalog/api/v1/categories"   
+[Network Analyzer (509c:42c4)]   (Sid: 28) Client -> Server @ : 745 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 28) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 28) Server -> Client : 4487 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:42c4)] Sent 4487 bytes to client @ 192.168.86.108:1618
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/deals/search?dealOfTheDay=true ...
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/deals/search?dealOfTheDay=true ...
+[Proxy Recording  (509c: 7d4)] Received response of 400 header and 351 body bytes from https://advantageonlineshopping.com:443/catalog/api/v1/deals/search?dealOfTheDay=true
+[Web Request      (509c: 7d4)] "GET https://advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true"   
+[Network Analyzer (509c: 7d4)]   (Sid: 29) Client -> Server @ : 765 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 29) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 29) Server -> Client : 351 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c: 7d4)] Sent 351 bytes to client @ 192.168.86.108:1629
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/app/tempFiles/popularProducts.json ...
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/app/tempFiles/popularProducts.json ...
+[Proxy Recording  (509c:2afc)] Received response of 438 header and 500 body bytes from https://advantageonlineshopping.com:443/app/tempFiles/popularProducts.json
+[Web Request      (509c:2afc)] "GET https://advantageonlineshopping.com/app/tempFiles/popularProducts.json"   
+[Network Analyzer (509c:2afc)]   (Sid: 30) Client -> Server @ : 754 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2afc)]   (Sid: 30) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2afc)]   (Sid: 30) Server -> Client : 500 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Sent 500 bytes to client @ 192.168.86.108:1630
+[Proxy Recording  (509c:2cd8)] Trying to connect to https://advantageonlineshopping.com:443/app/views/home-page.html ...
+[Proxy Recording  (509c:2cd8)] Trying to connect to https://advantageonlineshopping.com:443/app/views/home-page.html ...
+[Proxy Recording  (509c:2cd8)] Received response of 432 header and 2232 body bytes from https://advantageonlineshopping.com:443/app/views/home-page.html
+[Web Request      (509c:2cd8)] "GET https://advantageonlineshopping.com/app/views/home-page.html"   
+[Network Analyzer (509c:2cd8)]   (Sid: 31) Client -> Server @ : 720 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2cd8)]   (Sid: 31) Server -> Client : 419 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2cd8)]   (Sid: 31) Server -> Client : 2232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2cd8)] Sent 2232 bytes to client @ 192.168.86.108:1631
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1642
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/arrow_right.png ...
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/arrow_right.png ...
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1644
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1645
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1646
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1647
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1648
+[Proxy Recording  (509c:21c8)] Received response of 381 header and 996 body bytes from https://advantageonlineshopping.com:443/css/images/arrow_right.png
+[Web Request      (509c:21c8)] "GET https://advantageonlineshopping.com/css/images/arrow_right.png"   
+[Network Analyzer (509c:21c8)]   (Sid: 32) Client -> Server @ : 796 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=speakers ...
+[Proxy Recording  (509c:2e18)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=tablets ...
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=speakers ...
+[Proxy Recording  (509c:2e18)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=tablets ...
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1654
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=laptops ...
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=laptops ...
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=mice ...
+[Network Analyzer (509c:21c8)]   (Sid: 32) Server -> Client : 396 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=mice ...
+[Proxy Recording  (509c:2cd8)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=headphones ...
+[Network Analyzer (509c:21c8)]   (Sid: 32) Server -> Client : 996 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2cd8)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=headphones ...
+[Proxy Recording  (509c:21c8)] Sent 996 bytes to client @ 192.168.86.108:1642
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1656
+[Proxy Recording  (509c:42c4)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=2&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=923805222 ...
+[Proxy Recording  (509c:42c4)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=2&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=923805222 ...
+[Proxy Recording  (509c:2e18)] Received response of 389 header and 63833 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=tablets
+[Proxy Recording  (509c:2974)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Special-offer.jpg ...
+[Proxy Recording  (509c:2974)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Special-offer.jpg ...
+[Proxy Recording  (509c:42c4)] Received response of 549 header and 35 body bytes from https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=2&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=923805222
+[Web Request      (509c:2e18)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=tablets"   
+[Network Analyzer (509c:2e18)]   (Sid: 33) Client -> Server @ : 789 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:2afc)] Received response of 388 header and 91647 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=mice
+[Network Analyzer (509c:2e18)]   (Sid: 33) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2e18)]   (Sid: 33) Server -> Client : 63833 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e18)] Sent 63833 bytes to client @ 192.168.86.108:1645
+[Proxy Recording  (509c:3c5c)] Received response of 388 header and 228775 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=speakers
+[Proxy Recording  (509c:2974)] Received response of 386 header and 80826 body bytes from https://advantageonlineshopping.com:443/css/images/Special-offer.jpg
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1658
+[Proxy Recording  (509c: 7d4)] Received response of 389 header and 47798 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=laptops
+[Proxy Recording  (509c:2cd8)] Received response of 389 header and 60070 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=headphones
+[Web Request      (509c:42c4)] "GET https://www.google-analytics.com/collect?v=1&_v=j96&a=80493935&t=pageview&_s=2&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=923805222"   
+[Network Analyzer (509c:42c4)]   (Sid: 34) Client -> Server @ : 898 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 34) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 34) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:42c4)] Sent 35 bytes to client @ 192.168.86.108:1654
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff ...
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff ...
+[Web Request      (509c:2afc)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=mice"   
+[Network Analyzer (509c:2afc)]   (Sid: 35) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:21c8)] Received response of 380 header and 24808 body bytes from https://advantageonlineshopping.com:443/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff
+[Network Analyzer (509c:2afc)]   (Sid: 35) Server -> Client : 375 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2afc)]   (Sid: 35) Server -> Client : 91647 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Sent 91647 bytes to client @ 192.168.86.108:1647
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1660
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1661
+[Web Request      (509c:3c5c)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=speakers"   
+[Network Analyzer (509c:3c5c)]   (Sid: 36) Client -> Server @ : 790 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 36) Server -> Client : 375 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 36) Server -> Client : 228775 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:3c5c)] Sent 228775 bytes to client @ 192.168.86.108:1644
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1664
+[Proxy Recording  (509c:42c4)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff ...
+[Proxy Recording  (509c:42c4)] Trying to connect to https://advantageonlineshopping.com:443/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxJICQBXnfwsmqFkEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxIFDYTmmOASBQ32cphZEgUNx3Y4UBIFDVrGPO0SBQ1yl1wvGKupygE=?alt=proto ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxJICQBXnfwsmqFkEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxIFDYTmmOASBQ32cphZEgUNx3Y4UBIFDVrGPO0SBQ1yl1wvGKupygE=?alt=proto ...
+[Web Request      (509c:2974)] "GET https://advantageonlineshopping.com/css/images/Special-offer.jpg"   
+[Network Analyzer (509c:2974)]   (Sid: 37) Client -> Server @ : 782 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:42c4)] Received response of 380 header and 24944 body bytes from https://advantageonlineshopping.com:443/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff
+[Network Analyzer (509c:2974)]   (Sid: 37) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Banner1.jpg ...
+[Network Analyzer (509c:2974)]   (Sid: 37) Server -> Client : 80826 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Banner1.jpg ...
+[Proxy Recording  (509c:2974)] Sent 80826 bytes to client @ 192.168.86.108:1656
+[Proxy Recording  (509c:20e8)] Received response of 533 header and 118 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxJICQBXnfwsmqFkEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxIFDYTmmOASBQ32cphZEgUNx3Y4UBIFDVrGPO0SBQ1yl1wvGKupygE=?alt=proto
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1666
+[Web Request      (509c: 7d4)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=laptops"   
+[Network Analyzer (509c: 7d4)]   (Sid: 38) Client -> Server @ : 789 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 38) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 38) Server -> Client : 47798 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c: 7d4)] Sent 47798 bytes to client @ 192.168.86.108:1646
+[Proxy Recording  (509c:2afc)] Received response of 388 header and 496378 body bytes from https://advantageonlineshopping.com:443/css/images/Banner1.jpg
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://advantageonlineshopping.com:443/css/images/chat_logo.png ...
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1668
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://advantageonlineshopping.com:443/css/images/chat_logo.png ...
+[Web Request      (509c:2cd8)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=headphones"   
+[Proxy Recording  (509c:3c5c)] Received response of 383 header and 3003 body bytes from https://advantageonlineshopping.com:443/css/images/chat_logo.png
+[Network Analyzer (509c:2cd8)]   (Sid: 39) Client -> Server @ : 792 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2cd8)]   (Sid: 39) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1c84)] Trying to connect to https://advantageonlineshopping.com:443/css/images/GoUp.png ...
+[Network Analyzer (509c:2cd8)]   (Sid: 39) Server -> Client : 60070 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1c84)] Trying to connect to https://advantageonlineshopping.com:443/css/images/GoUp.png ...
+[Proxy Recording  (509c:2cd8)] Sent 60070 bytes to client @ 192.168.86.108:1648
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1670
+[Proxy Recording  (509c:1c84)] Received response of 383 header and 2114 body bytes from https://advantageonlineshopping.com:443/css/images/GoUp.png
+[Web Request      (509c:21c8)] "GET https://advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff"   
+[Network Analyzer (509c:21c8)]   (Sid: 40) Client -> Server @ : 805 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid: 40) Server -> Client : 395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid: 40) Server -> Client : 24808 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:21c8)] Sent 24808 bytes to client @ 192.168.86.108:1658
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1672
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/css/images/facebook.png ...
+[Proxy Recording  (509c: 7d4)] Trying to connect to https://advantageonlineshopping.com:443/css/images/facebook.png ...
+[Web Request      (509c:42c4)] "GET https://advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff"   
+[Network Analyzer (509c:42c4)]   (Sid: 41) Client -> Server @ : 805 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c: 7d4)] Received response of 383 header and 1583 body bytes from https://advantageonlineshopping.com:443/css/images/facebook.png
+[Network Analyzer (509c:42c4)]   (Sid: 41) Server -> Client : 395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:42c4)]   (Sid: 41) Server -> Client : 24944 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:42c4)] Sent 24944 bytes to client @ 192.168.86.108:1661
+[Proxy Recording  (509c:2e18)] Trying to connect to https://advantageonlineshopping.com:443/css/images/twitter.png ...
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1674
+[Proxy Recording  (509c:2e18)] Trying to connect to https://advantageonlineshopping.com:443/css/images/twitter.png ...
+[Web Request      (509c:20e8)] "GET https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxJICQBXnfwsmqFkEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxIFDYTmmOASBQ32cphZEgUNx3Y4UBIFDVrGPO0SBQ1yl1wvGKupygE=?alt=proto"   
+[Network Analyzer (509c:20e8)]   (Sid: 42) Client -> Server @ : 614 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:2e18)] Received response of 383 header and 2064 body bytes from https://advantageonlineshopping.com:443/css/images/twitter.png
+[Network Analyzer (509c:20e8)]   (Sid: 42) Server -> Client : 550 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 42) Server -> Client : 118 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:20e8)] Sent 118 bytes to client @ 192.168.86.108:1660
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/linkedin.png ...
+[Proxy Recording  (509c:21c8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/linkedin.png ...
+[Web Request      (509c:2afc)] "GET https://advantageonlineshopping.com/css/images/Banner1.jpg"   
+[Network Analyzer (509c:2afc)]   (Sid: 43) Client -> Server @ : 776 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:21c8)] Received response of 383 header and 1707 body bytes from https://advantageonlineshopping.com:443/css/images/linkedin.png
+[Network Analyzer (509c:2afc)]   (Sid: 43) Server -> Client : 403 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2afc)]   (Sid: 43) Server -> Client : 496378 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Sent 496378 bytes to client @ 192.168.86.108:1664
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1676
+[Web Request      (509c:3c5c)] "GET https://advantageonlineshopping.com/css/images/chat_logo.png"   
+[Network Analyzer (509c:3c5c)]   (Sid: 44) Client -> Server @ : 778 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 44) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 44) Server -> Client : 3003 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:3c5c)] Sent 3003 bytes to client @ 192.168.86.108:1666
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1678
+[Proxy Recording  (509c:2e94)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Banner2.jpg ...
+[Proxy Recording  (509c:2e94)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Banner2.jpg ...
+[Web Request      (509c:1c84)] "GET https://advantageonlineshopping.com/css/images/GoUp.png"   
+[Network Analyzer (509c:1c84)]   (Sid: 45) Client -> Server @ : 773 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:2e94)] Received response of 386 header and 85091 body bytes from https://advantageonlineshopping.com:443/css/images/Banner2.jpg
+[Network Analyzer (509c:1c84)]   (Sid: 45) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2cd8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Banner3.jpg ...
+[Proxy Recording  (509c:2cd8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Banner3.jpg ...
+[Network Analyzer (509c:1c84)]   (Sid: 45) Server -> Client : 2114 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1c84)] Sent 2114 bytes to client @ 192.168.86.108:1668
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1680
+[Web Request      (509c: 7d4)] "GET https://advantageonlineshopping.com/css/images/facebook.png"   
+[Proxy Recording  (509c:2cd8)] Received response of 386 header and 68456 body bytes from https://advantageonlineshopping.com:443/css/images/Banner3.jpg
+[Network Analyzer (509c: 7d4)]   (Sid: 46) Client -> Server @ : 777 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 46) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c: 7d4)]   (Sid: 46) Server -> Client : 1583 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c: 7d4)] Sent 1583 bytes to client @ 192.168.86.108:1670
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1682
+[Proxy Recording  (509c:2974)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Popular-item3.jpg ...
+[Proxy Recording  (509c:2974)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Popular-item3.jpg ...
+[Web Request      (509c:2e18)] "GET https://advantageonlineshopping.com/css/images/twitter.png"   
+[Network Analyzer (509c:2e18)]   (Sid: 47) Client -> Server @ : 776 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:2974)] Received response of 386 header and 25978 body bytes from https://advantageonlineshopping.com:443/css/images/Popular-item3.jpg
+[Network Analyzer (509c:2e18)]   (Sid: 47) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Popular-item2.jpg ...
+[Proxy Recording  (509c:2afc)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Popular-item2.jpg ...
+[Network Analyzer (509c:2e18)]   (Sid: 47) Server -> Client : 2064 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e18)] Sent 2064 bytes to client @ 192.168.86.108:1672
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1684
+[Proxy Recording  (509c:2afc)] Received response of 386 header and 28087 body bytes from https://advantageonlineshopping.com:443/css/images/Popular-item2.jpg
+[Web Request      (509c:21c8)] "GET https://advantageonlineshopping.com/css/images/linkedin.png"   
+[Network Analyzer (509c:21c8)]   (Sid: 48) Client -> Server @ : 777 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Popular-item1.jpg ...
+[Proxy Recording  (509c:3c5c)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Popular-item1.jpg ...
+[Network Analyzer (509c:21c8)]   (Sid: 48) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:21c8)]   (Sid: 48) Server -> Client : 1707 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:21c8)] Sent 1707 bytes to client @ 192.168.86.108:1674
+[Proxy Recording  (509c:3c5c)] Received response of 386 header and 42737 body bytes from https://advantageonlineshopping.com:443/css/images/Popular-item1.jpg
+[Web Request      (509c:2e94)] "GET https://advantageonlineshopping.com/css/images/Banner2.jpg"   
+[Network Analyzer (509c:2e94)]   (Sid: 49) Client -> Server @ : 776 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2e94)]   (Sid: 49) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2e94)]   (Sid: 49) Server -> Client : 85091 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2e94)] Sent 85091 bytes to client @ 192.168.86.108:1676
+[Web Request      (509c:2cd8)] "GET https://advantageonlineshopping.com/css/images/Banner3.jpg"   
+[Network Analyzer (509c:2cd8)]   (Sid: 50) Client -> Server @ : 776 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2cd8)]   (Sid: 50) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2cd8)]   (Sid: 50) Server -> Client : 68456 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2cd8)] Sent 68456 bytes to client @ 192.168.86.108:1678
+[Web Request      (509c:2974)] "GET https://advantageonlineshopping.com/css/images/Popular-item3.jpg"   
+[Network Analyzer (509c:2974)]   (Sid: 51) Client -> Server @ : 782 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2974)]   (Sid: 51) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2974)]   (Sid: 51) Server -> Client : 25978 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2974)] Sent 25978 bytes to client @ 192.168.86.108:1680
+[Web Request      (509c:2afc)] "GET https://advantageonlineshopping.com/css/images/Popular-item2.jpg"   
+[Network Analyzer (509c:2afc)]   (Sid: 52) Client -> Server @ : 782 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2afc)]   (Sid: 52) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2afc)]   (Sid: 52) Server -> Client : 28087 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2afc)] Sent 28087 bytes to client @ 192.168.86.108:1682
+[Web Request      (509c:3c5c)] "GET https://advantageonlineshopping.com/css/images/Popular-item1.jpg"   
+[Network Analyzer (509c:3c5c)]   (Sid: 53) Client -> Server @ : 782 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 53) Server -> Client : 401 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:3c5c)]   (Sid: 53) Server -> Client : 42737 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:3c5c)] Sent 42737 bytes to client @ 192.168.86.108:1684
+[Proxy Recording.Error (509c:1278)] Exception is caught while connecting to , message=Index was outside the bounds of the array.
+[User action                 ] StartTransactionEvent ClickSpeakers [Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1689
+[Proxy Recording  (509c:1278)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories/4/products ...
+[Proxy Recording  (509c:1278)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories/4/products ...
+[Proxy Recording  (509c:1278)] Received response of 400 header and 1974 body bytes from https://advantageonlineshopping.com:443/catalog/api/v1/categories/4/products
+[Web Request      (509c:1278)] "GET https://advantageonlineshopping.com/catalog/api/v1/categories/4/products"   
+[Network Analyzer (509c:1278)]   (Sid: 54) Client -> Server @ : 756 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:1278)]   (Sid: 54) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:1278)]   (Sid: 54) Server -> Client : 1974 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1278)] Sent 1974 bytes to client @ 192.168.86.108:1689
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1691
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories/attributes ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories/attributes ...
+[Proxy Recording  (509c:20e8)] Received response of 400 header and 552 body bytes from https://advantageonlineshopping.com:443/catalog/api/v1/categories/attributes
+[Web Request      (509c:20e8)] "GET https://advantageonlineshopping.com/catalog/api/v1/categories/attributes"   
+[Network Analyzer (509c:20e8)]   (Sid: 55) Client -> Server @ : 756 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 55) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 55) Server -> Client : 552 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:20e8)] Sent 552 bytes to client @ 192.168.86.108:1691
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1693
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/app/views/category-page.html ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/app/views/category-page.html ...
+[Proxy Recording  (509c:20e8)] Received response of 386 header and 741 body bytes from https://advantageonlineshopping.com:443/app/views/category-page.html
+[Web Request      (509c:20e8)] "GET https://advantageonlineshopping.com/app/views/category-page.html"   
+[Network Analyzer (509c:20e8)]   (Sid: 56) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 56) Server -> Client : 373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 56) Server -> Client : 741 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:20e8)] Sent 741 bytes to client @ 192.168.86.108:1693
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1695
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1696
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1698
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1699
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1700
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1701
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1702
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/category_banner_4.png ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/css/images/category_banner_4.png ...
+[Proxy Recording  (509c:2d34)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Filter.png ...
+[Proxy Recording  (509c:2d34)] Trying to connect to https://advantageonlineshopping.com:443/css/images/Filter.png ...
+[Proxy Recording  (509c:3618)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4200 ...
+[Proxy Recording  (509c:1338)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4700 ...
+[Proxy Recording  (509c:3618)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4200 ...
+[Proxy Recording  (509c:1338)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4700 ...
+[Proxy Recording  (509c:4084)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4600 ...
+[Proxy Recording  (509c:2618)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4300 ...
+[Proxy Recording  (509c:4084)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4600 ...
+[Proxy Recording  (509c:2618)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4300 ...
+[Proxy Recording  (509c:1278)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=3&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2Fcategory%2FSpeakers%2F4&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=328062020 ...
+[Proxy Recording  (509c:1278)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=3&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2Fcategory%2FSpeakers%2F4&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=328062020 ...
+[Proxy Recording  (509c:2d34)] Received response of 383 header and 1415 body bytes from https://advantageonlineshopping.com:443/css/images/Filter.png
+[Proxy Recording  (509c:1278)] Received response of 549 header and 35 body bytes from https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=3&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2Fcategory%2FSpeakers%2F4&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=328062020
+[Web Request      (509c:2d34)] "GET https://advantageonlineshopping.com/css/images/Filter.png"   
+[Network Analyzer (509c:2d34)]   (Sid: 57) Client -> Server @ : 775 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2d34)]   (Sid: 57) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2d34)]   (Sid: 57) Server -> Client : 1415 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2d34)] Sent 1415 bytes to client @ 192.168.86.108:1698
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1709
+[Proxy Recording  (509c:1338)] Received response of 389 header and 53989 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4700
+[Proxy Recording  (509c:2618)] Received response of 389 header and 49668 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4300
+[Web Request      (509c:1278)] "GET https://www.google-analytics.com/collect?v=1&_v=j96&a=80493935&t=pageview&_s=3&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2Fcategory%2FSpeakers%2F4&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=328062020"   
+[Network Analyzer (509c:1278)]   (Sid: 58) Client -> Server @ : 921 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:1278)]   (Sid: 58) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:1278)]   (Sid: 58) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1278)] Sent 35 bytes to client @ 192.168.86.108:1696
+[Proxy Recording  (509c:20e8)] Received response of 387 header and 462083 body bytes from https://advantageonlineshopping.com:443/css/images/category_banner_4.png
+[Proxy Recording  (509c:3618)] Received response of 389 header and 46751 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4200
+[Proxy Recording  (509c:4084)] Received response of 389 header and 71727 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4600
+[Proxy Recording  (509c:2d34)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4400 ...
+[Proxy Recording  (509c:2d34)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4400 ...
+[Web Request      (509c:1338)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=4700"   
+[Network Analyzer (509c:1338)]   (Sid: 59) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:1338)]   (Sid: 59) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:1338)]   (Sid: 59) Server -> Client : 53989 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1338)] Sent 53989 bytes to client @ 192.168.86.108:1700
+[Proxy Recording  (509c:2d34)] Received response of 389 header and 50423 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4400
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1711
+[Web Request      (509c:2618)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=4300"   
+[Network Analyzer (509c:2618)]   (Sid: 60) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2618)]   (Sid: 60) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2618)]   (Sid: 60) Server -> Client : 49668 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2618)] Sent 49668 bytes to client @ 192.168.86.108:1702
+[Proxy Recording  (509c:1278)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4100 ...
+[Proxy Recording  (509c:1278)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4100 ...
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1713
+[Web Request      (509c:20e8)] "GET https://advantageonlineshopping.com/css/images/category_banner_4.png"   
+[Network Analyzer (509c:20e8)]   (Sid: 61) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:1278)] Received response of 389 header and 70752 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4100
+[Network Analyzer (509c:20e8)]   (Sid: 61) Server -> Client : 402 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 61) Server -> Client : 462083 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:20e8)] Sent 462083 bytes to client @ 192.168.86.108:1695
+[Proxy Recording  (509c:1338)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4500 ...
+[Proxy Recording  (509c:1338)] Trying to connect to https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4500 ...
+[Web Request      (509c:3618)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=4200"   
+[Network Analyzer (509c:3618)]   (Sid: 62) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:3618)]   (Sid: 62) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1338)] Received response of 389 header and 58740 body bytes from https://advantageonlineshopping.com:443/catalog/fetchImage?image_id=4500
+[Network Analyzer (509c:3618)]   (Sid: 62) Server -> Client : 46751 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:3618)] Sent 46751 bytes to client @ 192.168.86.108:1699
+[Web Request      (509c:4084)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=4600"   
+[Network Analyzer (509c:4084)]   (Sid: 63) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:4084)]   (Sid: 63) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:4084)]   (Sid: 63) Server -> Client : 71727 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:4084)] Sent 71727 bytes to client @ 192.168.86.108:1701
+[Web Request      (509c:2d34)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=4400"   
+[Network Analyzer (509c:2d34)]   (Sid: 64) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2d34)]   (Sid: 64) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2d34)]   (Sid: 64) Server -> Client : 50423 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2d34)] Sent 50423 bytes to client @ 192.168.86.108:1709
+[Web Request      (509c:1278)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=4100"   
+[Network Analyzer (509c:1278)]   (Sid: 65) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:1278)]   (Sid: 65) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:1278)]   (Sid: 65) Server -> Client : 70752 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1278)] Sent 70752 bytes to client @ 192.168.86.108:1711
+[Web Request      (509c:1338)] "GET https://advantageonlineshopping.com/catalog/fetchImage?image_id=4500"   
+[Network Analyzer (509c:1338)]   (Sid: 66) Client -> Server @ : 786 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:1338)]   (Sid: 66) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:1338)]   (Sid: 66) Server -> Client : 58740 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1338)] Sent 58740 bytes to client @ 192.168.86.108:1713
+[User action                 ] EndTransactionEvent ClickSpeakers [User action                 ] StartTransactionEvent ClickBose [Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1716
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1717
+[Proxy Recording  (509c:4084)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories/all_data ...
+[Proxy Recording  (509c:4084)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories/all_data ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/products/20 ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/products/20 ...
+[Proxy Recording  (509c:20e8)] Received response of 400 header and 581 body bytes from https://advantageonlineshopping.com:443/catalog/api/v1/products/20
+[Web Request      (509c:20e8)] "GET https://advantageonlineshopping.com/catalog/api/v1/products/20"   
+[Network Analyzer (509c:20e8)]   (Sid: 67) Client -> Server @ : 746 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 67) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 67) Server -> Client : 581 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:20e8)] Sent 581 bytes to client @ 192.168.86.108:1717
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1720
+[Proxy Recording  (509c:2ef0)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories/4/products ...
+[Proxy Recording  (509c:2ef0)] Trying to connect to https://advantageonlineshopping.com:443/catalog/api/v1/categories/4/products ...
+[Proxy Recording  (509c:2ef0)] Received response of 400 header and 1980 body bytes from https://advantageonlineshopping.com:443/catalog/api/v1/categories/4/products
+[Web Request      (509c:2ef0)] "GET https://advantageonlineshopping.com/catalog/api/v1/categories/4/products"   
+[Network Analyzer (509c:2ef0)]   (Sid: 68) Client -> Server @ : 756 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2ef0)]   (Sid: 68) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2ef0)]   (Sid: 68) Server -> Client : 1980 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2ef0)] Sent 1980 bytes to client @ 192.168.86.108:1720
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1722
+[Proxy Recording  (509c:4084)] Received response of 400 header and 8578 body bytes from https://advantageonlineshopping.com:443/catalog/api/v1/categories/all_data
+[Proxy Recording  (509c:2618)] Trying to connect to https://advantageonlineshopping.com:443/app/views/product-page.html ...
+[Proxy Recording  (509c:2618)] Trying to connect to https://advantageonlineshopping.com:443/app/views/product-page.html ...
+[Web Request      (509c:4084)] "GET https://advantageonlineshopping.com/catalog/api/v1/categories/all_data"   
+[Network Analyzer (509c:4084)]   (Sid: 69) Client -> Server @ : 754 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (509c:2618)] Received response of 431 header and 2360 body bytes from https://advantageonlineshopping.com:443/app/views/product-page.html
+[Network Analyzer (509c:4084)]   (Sid: 69) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:4084)]   (Sid: 69) Server -> Client : 8578 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:4084)] Sent 8578 bytes to client @ 192.168.86.108:1716
+[Web Request      (509c:2618)] "GET https://advantageonlineshopping.com/app/views/product-page.html"   
+[Network Analyzer (509c:2618)]   (Sid: 70) Client -> Server @ : 723 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2618)]   (Sid: 70) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2618)]   (Sid: 70) Server -> Client : 2360 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2618)] Sent 2360 bytes to client @ 192.168.86.108:1722
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1724
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1725
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1726
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1727
+[Proxy Recording  (509c:2ef0)] Trying to connect to https://advantageonlineshopping.com:443/css/images/review_right.png ...
+[Proxy Recording  (509c:1338)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=4&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2Fproduct%2F20&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=1790484531 ...
+[Proxy Recording  (509c:2ef0)] Trying to connect to https://advantageonlineshopping.com:443/css/images/review_right.png ...
+[Proxy Recording  (509c:1338)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=4&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2Fproduct%2F20&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=1790484531 ...
+[Proxy Recording  (509c:4084)] Trying to connect to https://advantageonlineshopping.com:443/css/images/reviewUser.png ...
+[Proxy Recording  (509c:4084)] Trying to connect to https://advantageonlineshopping.com:443/css/images/reviewUser.png ...
+[Proxy Recording  (509c:2618)] Trying to connect to https://advantageonlineshopping.com:443/css/images/review_Left_disabled.png ...
+[Proxy Recording  (509c:2618)] Trying to connect to https://advantageonlineshopping.com:443/css/images/review_Left_disabled.png ...
+[Proxy Recording  (509c:1338)] Received response of 549 header and 35 body bytes from https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=4&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2Fproduct%2F20&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=1790484531
+[Proxy Recording  (509c:2ef0)] Received response of 383 header and 1075 body bytes from https://advantageonlineshopping.com:443/css/images/review_right.png
+[Proxy Recording  (509c:4084)] Received response of 383 header and 1542 body bytes from https://advantageonlineshopping.com:443/css/images/reviewUser.png
+[Proxy Recording  (509c:2618)] Received response of 383 header and 1087 body bytes from https://advantageonlineshopping.com:443/css/images/review_Left_disabled.png
+[Web Request      (509c:1338)] "GET https://www.google-analytics.com/collect?v=1&_v=j96&a=80493935&t=pageview&_s=4&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2Fproduct%2F20&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=1790484531"   
+[Network Analyzer (509c:1338)]   (Sid: 71) Client -> Server @ : 911 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:1338)]   (Sid: 71) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:1338)]   (Sid: 71) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:1338)] Sent 35 bytes to client @ 192.168.86.108:1724
+[Web Request      (509c:2ef0)] "GET https://advantageonlineshopping.com/css/images/review_right.png"   
+[Network Analyzer (509c:2ef0)]   (Sid: 72) Client -> Server @ : 781 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2ef0)]   (Sid: 72) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2ef0)]   (Sid: 72) Server -> Client : 1075 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2ef0)] Sent 1075 bytes to client @ 192.168.86.108:1725
+[Web Request      (509c:4084)] "GET https://advantageonlineshopping.com/css/images/reviewUser.png"   
+[Network Analyzer (509c:4084)]   (Sid: 73) Client -> Server @ : 779 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:4084)]   (Sid: 73) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:4084)]   (Sid: 73) Server -> Client : 1542 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:4084)] Sent 1542 bytes to client @ 192.168.86.108:1726
+[Web Request      (509c:2618)] "GET https://advantageonlineshopping.com/css/images/review_Left_disabled.png"   
+[Network Analyzer (509c:2618)]   (Sid: 74) Client -> Server @ : 789 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2618)]   (Sid: 74) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2618)]   (Sid: 74) Server -> Client : 1087 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2618)] Sent 1087 bytes to client @ 192.168.86.108:1727
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1732
+[Proxy Recording  (509c:3618)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIsCaNgTnJ2TimIEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxIFDfIXbIkYq6nKAQ==?alt=proto ...
+[Proxy Recording  (509c:3618)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIsCaNgTnJ2TimIEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxIFDfIXbIkYq6nKAQ==?alt=proto ...
+[Proxy Recording  (509c:3618)] Received response of 532 header and 67 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIsCaNgTnJ2TimIEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxIFDfIXbIkYq6nKAQ==?alt=proto
+[Web Request      (509c:3618)] "GET https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTAyLjAuNTAwNS42MxIsCaNgTnJ2TimIEgUN541ADhIFDc5BTHoSBQ14bxIZEgUNDxa-KxIFDfIXbIkYq6nKAQ==?alt=proto"   
+[Network Analyzer (509c:3618)]   (Sid: 75) Client -> Server @ : 578 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:3618)]   (Sid: 75) Server -> Client : 549 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:3618)]   (Sid: 75) Server -> Client : 67 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:3618)] Sent 67 bytes to client @ 192.168.86.108:1732
+[Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1734
+[Proxy Recording  (509c:20e8)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=11:I0A4Orf2Jj3rBTTsmJWa0l_V-xwXVANDHPAdvglJs90&cup2hreq=c9a74054ed2af15dfe6c5a37e7453e0e80e932ef5a592fc39ce8faea92ad0a44 ...
+[Proxy Recording  (509c:20e8)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=11:I0A4Orf2Jj3rBTTsmJWa0l_V-xwXVANDHPAdvglJs90&cup2hreq=c9a74054ed2af15dfe6c5a37e7453e0e80e932ef5a592fc39ce8faea92ad0a44 ...
+[Proxy Recording  (509c:20e8)] Received response of 1248 header and 1011 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=11:I0A4Orf2Jj3rBTTsmJWa0l_V-xwXVANDHPAdvglJs90&cup2hreq=c9a74054ed2af15dfe6c5a37e7453e0e80e932ef5a592fc39ce8faea92ad0a44
+[Web Request      (509c:20e8)] "POST https://update.googleapis.com/service/update2/json?cup2key=11:I0A4Orf2Jj3rBTTsmJWa0l_V-xwXVANDHPAdvglJs90&cup2hreq=c9a74054ed2af15dfe6c5a37e7453e0e80e932ef5a592fc39ce8faea92ad0a44"
+[Network Analyzer (509c:20e8)]   (Sid: 76) Client -> Server @ : 1399 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 76) Client -> Server @ : 9489 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 76) Server -> Client : 1237 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:20e8)]   (Sid: 76) Server -> Client : 1011 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:20e8)] Sent 1011 bytes to client @ 192.168.86.108:1734
+[User action                 ] EndTransactionEvent ClickBose [Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1737
+[Proxy Recording.Error (509c:2618)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[User action                 ] StartTransactionEvent ClickHome [Proxy Recording  (509c:19fc)] Client request from @ 192.168.86.108:1738
+[Proxy Recording  (509c:2d34)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=5&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=1403353408 ...
+[Proxy Recording  (509c:2d34)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=5&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=1403353408 ...
+[Proxy Recording  (509c:2d34)] Received response of 549 header and 35 body bytes from https://www.google-analytics.com:443/collect?v=1&_v=j96&a=80493935&t=pageview&_s=5&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=1403353408
+[Web Request      (509c:2d34)] "GET https://www.google-analytics.com/collect?v=1&_v=j96&a=80493935&t=pageview&_s=5&dl=https%3A%2F%2Fadvantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1080&vp=958x927&je=0&_u=KEBAAEABAAAAAC~&jid=&gjid=&cid=838418115.1654284796&tid=UA-81334227-1&_gid=44773532.1654284796&z=1403353408"   
+[Network Analyzer (509c:2d34)]   (Sid: 77) Client -> Server @ : 899 bytes (SSL)(Service=HTTP)
+[Network Analyzer (509c:2d34)]   (Sid: 77) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (509c:2d34)]   (Sid: 77) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (509c:2d34)] Sent 35 bytes to client @ 192.168.86.108:1738
+[User action                 ] EndTransactionEvent ClickHome 
