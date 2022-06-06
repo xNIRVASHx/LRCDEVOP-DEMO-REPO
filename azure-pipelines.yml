@@ -16,7 +16,7 @@ trigger:
       - branch
   paths:
     exclude:
-      - azure-pipelines.yml
+      - master/azure-pipelines.yml
 #- none#main 
 
 pool:
